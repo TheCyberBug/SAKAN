@@ -37,6 +37,7 @@ The final solution is entirely implemented under the SAKAN/src folder.
 
 ## Model-Architecture History (non-runnable).ipynb
 This file stores notable phases of the architectural changes during the experimentation phase.
+
 THE NOTEBOOK IS NOT MADE TO BE EXECUTABLE!!!
 
 It only stores the model configurations.
