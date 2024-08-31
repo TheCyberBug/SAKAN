@@ -4,6 +4,11 @@ from torchviz import make_dot
 import os
 
 class Visualizer:
+    '''
+    Visualisation methods for:
+    Plotting model history (timeline).
+    Visualising the model connections.    
+    '''
     @staticmethod
     def plot_history(model_history):
         accuracy = [entry[0] for entry in model_history]

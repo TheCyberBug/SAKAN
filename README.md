@@ -34,3 +34,12 @@ This project evaluates the suitability of Kolmogorov-Arnold Neural Networks (KAN
 ## Archive
 The archive directory stores historical versions and some older experiments of the project.
 The final solution is entirely implemented under the SAKAN/src folder.
+
+## Model-Architecture History (non-runnable).ipynb
+This file stores notable phases of the architectural changes during the experimentation phase.
+
+THE NOTEBOOK IS NOT MADE TO BE EXECUTABLE!!!
+
+It only stores the model configurations.
+If you want to test one of them, copy it and place it as a new model class in the src/model.py file.
+Then change the selected model from src/sakan.py (`model = CustomCNN(vocab_size, embed_dim).to(device)`)
