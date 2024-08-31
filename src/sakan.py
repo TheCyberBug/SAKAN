@@ -6,6 +6,9 @@ from visualiser import Visualizer
 
 
 class SAKAN:
+    '''
+    The Sentiment Analisys with KANs pipeline
+    '''
     def train(self):
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         print(f"Using device: {device}")
